@@ -7,7 +7,7 @@ export default function Index() {
     return (
         <>
             <h1>isDarkModeEnabled: {isDarkModeEnabled ? "yes" : "false"}</h1>
-            <button onClick={() => setIsDarkModeEnabled(!isDarkModeEnabled)}>Toggle dark mode 🌗</button>
+            <button onClick={() => setIsDarkModeEnabled(!isDarkModeEnabled)}>Toggle dark mode 🌗!</button>
         </>
     );
 
